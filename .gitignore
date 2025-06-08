@@ -1,0 +1,34 @@
+# Ignore Python virtual environment
+venv/
+
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+
+
+# Ignore local logs
+*.log
+
+# Ignore model files (optional, if you download or save .bin/.pt)
+*.bin
+*.pt
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled libraries
+*.so
+*.dll
+*.dylib
+*.lib
+
+# VSCode / IDE files
+.vscode/
+.idea/
